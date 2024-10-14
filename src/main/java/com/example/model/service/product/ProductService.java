@@ -1,6 +1,5 @@
 package com.example.model.service.product;
 
-import com.example.model.entity.Category;
 import com.example.model.entity.Product;
 
 import java.util.List;

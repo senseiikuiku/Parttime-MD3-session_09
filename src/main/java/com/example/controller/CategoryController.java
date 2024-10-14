@@ -33,6 +33,12 @@ public class CategoryController {
         }
         return "category/add";
     }
+
+    @GetMapping("/back")
+    public String back(Model model){
+        return "redirect:/category";
+    }
+
     @GetMapping("/edit/{id}")
     public String edit(@PathVariable("id") int id,Model model){
         Category category = categoryService.findById(id);

@@ -1,4 +1,4 @@
-package com.example.model.user;
+package com.example.model.service.user;
 
 import com.example.model.dao.user.UserDAO;
 import com.example.model.entity.User;

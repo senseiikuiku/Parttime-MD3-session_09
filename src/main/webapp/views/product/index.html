@@ -33,7 +33,7 @@
             <td th:text="${product.price}"></td>
             <td th:text="${product.category.name}"></td>
             <td>
-                <img th:src="@{|/uploads/${product.image}|}" width="150px" />
+                <img th:src="@{|/uploads/${product.image}|}" width="150px" height="150px" object-fit="cover"/>
             </td>
 
             <td>

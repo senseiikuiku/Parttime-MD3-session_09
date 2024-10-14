@@ -1,8 +1,5 @@
 package com.example.model.dao.product;
 
-import com.example.model.dao.category.CategoryDAO;
-import com.example.model.dao.category.ProductDAO;
-import com.example.model.entity.Category;
 import com.example.model.entity.Product;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;

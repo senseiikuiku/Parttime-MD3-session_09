@@ -1,6 +1,5 @@
-package com.example.model.dao.category;
+package com.example.model.dao.product;
 
-import com.example.model.entity.Category;
 import com.example.model.entity.Product;
 
 import java.util.List;

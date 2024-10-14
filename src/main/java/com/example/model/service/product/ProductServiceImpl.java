@@ -1,8 +1,6 @@
 package com.example.model.service.product;
 
-import com.example.model.dao.category.CategoryDAO;
-import com.example.model.dao.category.ProductDAO;
-import com.example.model.entity.Category;
+import com.example.model.dao.product.ProductDAO;
 import com.example.model.entity.Product;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

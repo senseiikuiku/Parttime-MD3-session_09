@@ -25,10 +25,15 @@
         </thead>
         <tbody>
 
-        <tr th:each="category,loop : ${categories}">
+        <tr style="align-content: center" th:each="category,loop : ${categories}">
             <td scope="row" th:text="${loop.count}"></td>
             <td th:text="${category.name}"></td>
-            <td th:text="${category.status ?'Active':'Inactive'}"></td>
+            <td th:text="${category.status}"
+                th:class="${category.status?'badge badge-success':'badge badge-danger'}"
+                style="margin-top: 10px">
+            </td>
+<!--            ${category.status ?'<span class="badge badge-success">Active</span>':
+                '<span class="badge badge-danger">Inactive</span>'}-->
             <td>
                 <a class="btn btn-primary" th:href="@{'category/edit/'+${category.id}}">Edit</a>
                 <a class="btn btn-danger" th:href="@{'category/delete/'+${category.id}}">Delete</a>
